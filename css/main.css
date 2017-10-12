@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+@media (max-width:800px) {
+    .imageAndText h1 {
+        display:none !important;
+    }
+}
+
+.imageAndText {
+	position: relative;
+}
+.imageAndText h1{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	color: white;
+	font-size: xx-large;
+}
+
+#formContainer{
+	margin-top: 40px;
+}
+
+#formContainer > div{
+	padding: 20px 20px 0 20px;
+	border-radius: 10px;
+	border: 1px solid #101010;
+	background: #101010;
+}
+
+#formContainer label{
+	color: #9d9d9d;
+}
+@media (max-width:800px) {
+    #carouselContainer {
+        display:none !important;
+    }
+}
+
+.carousel-inner{
+	background-color: #101010;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+		color:white;
+		text-align: right;
+}
+.carousel-inner > .item > img {
+    margin: 50px 50px 50px 80px;
+		max-width: 250px;
+}
+
+
+.button-container{
+	text-align: center;
+}
+
+#img-header{
+	width: 100%;
+}
+
+.thmb-home{
+	height: 405px;
+	margin: 5px;
+}
+
+.img-home{
+	height: 262px;
+}
+
+#footer {
+		margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+
+.img-home{
+	height: 262px;
+}
+
+.voluntariadoWrapper{
+	position:relative;
+	margin: 10px;
+	min-width: 17%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.voluntariadoWrapper img, .voluntariadoCaption{
+	width: 100%;
+	position: absolute;
+}
+
+.voluntariadoWrapper,
+.voluntariadoWrapper img, .voluntariadoCaption{
+	min-height:282px;
+}
+
+.voluntariadoWrapper .voluntariadoCaption{
+	background: #000000;
+	opacity:0;
+	transition:opacity 0.1s linear;
+	max-height:100%;
+	display: table;
+	text-align:center;
+}
+
+
+.voluntariadoWrapper .voluntariadoCaption div{
+	display:table-cell;
+	vertical-align:middle;
+	height: 100%;
+}
+
+.voluntariadoWrapper .voluntariadoCaption span{
+	display: block;
+	color: #cccccc;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+.voluntariadoWrapper .voluntariadoCaption span:first-child{
+	color: #FFA500;
+}
+
+.voluntariadoWrapper .voluntariadoCaption span:last-child{
+	color: #FFA500;
+}
+
+.voluntariadoWrapper .voluntariadoCaption:hover{
+	opacity: 0.8;
+}

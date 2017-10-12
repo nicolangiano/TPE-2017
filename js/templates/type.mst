@@ -1,0 +1,5 @@
+<li id="type{{id_voluntariado}}" class="list-group-item">
+  <span><a class="glyphicon glyphicon-pencil modifyType" data-id={{id_voluntariado}} ></a></span>
+  <span><a class="glyphicon glyphicon-trash deleteType" data-id={{id_voluntariado}} ></a></span>
+  <span>{{nombre_voluntariado}}</span>
+</li>
